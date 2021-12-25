@@ -3,17 +3,17 @@ import Auth from "./pages/Auth"
 import ItemPage from "./pages/ItemPage"
 import Shop from "./pages/Shop"
 import ShopingCart from "./pages/ShopingCart"
-import { ADMIN_ROUTER, ITEM_ROUTER, LOGIN_ROUTER, REGISTRATION_ROUTER, SHOPINGCART_ROUTER, SHOP_ROUTER } from "./utils/consts"
+import { ADMIN_ROUTE, ITEM_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUTE, SHOPINGCART_ROUTE, SHOP_ROUTE } from "./utils/consts"
 
 export const privateRoutes = [
 
     {
-        path: ADMIN_ROUTER,
+        path: ADMIN_ROUTE,
         Component: Admin
     },
 
     {
-        path: SHOPINGCART_ROUTER,
+        path: SHOPINGCART_ROUTE,
         Component: ShopingCart
     },
 
@@ -22,21 +22,21 @@ export const privateRoutes = [
 export const publickRoutes = [
     
     {
-        path: SHOP_ROUTER,
+        path: SHOP_ROUTE,
         Component: Shop
     },
 
     {
-        path: LOGIN_ROUTER,
+        path: LOGIN_ROUTE,
         Component: Auth
     },
     {
-        path: REGISTRATION_ROUTER,
+        path: REGISTRATION_ROUTE,
         Component: Auth
     },
 
     {
-        path: ITEM_ROUTER + '/:id',
+        path: ITEM_ROUTE + '/:id',
         Component: ItemPage
     },
 

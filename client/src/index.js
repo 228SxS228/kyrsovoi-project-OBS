@@ -1,6 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {createContext} from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import ItemStore from './store/ItemStore';
 import UserStore from './store/UserStore';
 
