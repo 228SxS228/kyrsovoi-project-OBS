@@ -3,5 +3,7 @@
 
 Задача: разрабоать интернет магазин по продаже сумок.
 
+дифграмма бд https://drive.google.com/file/d/1EcMTGjoZk5ILnCB7oU65mk31CDoTiJeV/view?usp=sharing
+
 # npm run dev - запуск сервера
 # npm start - запуск клиента
